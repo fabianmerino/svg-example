@@ -1,0 +1,58 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="-10 -10 1920 1080">
+
+  <symbol id="turbina_vert_img">
+    <image href="turbina_vert.png" height="60" />
+  </symbol>
+
+  <symbol id="redLine">
+    <polyline points="5,17 5,0 35,0 35,720.5" stroke="red" fill="none" />
+  </symbol>
+
+  <use href="#redLine" points="5,17 5,0 35,0 35,720.5" />
+  <polyline points="15,17 15,5 37,5 37,725.5" stroke="blue" fill="none" />
+  <use href="#turbina_vert_img" y="15" />
+
+  <g id="vert">
+    <polyline points="5,92 5,80 35,80" stroke="red" fill="none" />
+    <polyline points="15,92 15,85 37,85" stroke="blue" fill="none" />
+    <use href="#turbina_vert_img" y="90" />
+  </g>
+
+  <use href="#vert" y="80" />
+  <use href="#vert" y="160" />
+  <use href="#vert" y="240" />
+  <use href="#vert" y="320" />
+  <use href="#vert" y="400" />
+  <use href="#vert" y="480" />
+  <use href="#vert" y="560" />
+  <use href="#vert" y="640" />
+
+  <polyline points="55,17 55,0 85,0 85,560.5" stroke="red" fill="none" />
+  <use href="#redLine" points="55,17 55,0 85,0 85,560.5" />
+
+  <polyline points="65,17 65,5 87,5 87,565.5" stroke="blue" fill="none" />
+  <use href="#turbina_vert_img" y="15" x="50" />
+
+  <use href="#vert" x="50" />
+  <use href="#vert" y="80" x="50" />
+  <use href="#vert" y="160" x="50" />
+  <use href="#vert" y="240" x="50" />
+  <use href="#vert" y="320" x="50" />
+  <use href="#vert" y="400" x="50" />
+  <use href="#vert" y="480" x="50" />
+
+  <polyline points="105,17 105,0 135,0 135,640.5" stroke="red" fill="none" />
+  <polyline points="115,17 115,5 137,5 137,645.5" stroke="blue" fill="none" />
+  <use href="#turbina_vert_img" y="15" x="100" />
+
+  <use href="#vert" x="100" />
+  <use href="#vert" y="80" x="100" />
+  <use href="#vert" y="160" x="100" />
+  <use href="#vert" y="240" x="100" />
+  <use href="#vert" y="320" x="100" />
+  <use href="#vert" y="400" x="100" />
+  <use href="#vert" y="480" x="100" />
+  <use href="#vert" y="560" x="100" />
+
+</svg>
